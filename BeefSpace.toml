@@ -1,5 +1,8 @@
 FileVersion = 1
-Projects = {SourceBeef = {Path = "."}, SamplePlugin = {Path = "SamplePlugin"}}
+Projects = {SourceBeef = {Path = "."}, SamplePlugin = {Path = "SamplePlugin"}, InterfaceGenTest = {Path = "InterfaceGenTest"}}
 
 [Workspace]
-StartupProject = "SamplePlugin"
+StartupProject = "InterfaceGenTest"
+
+[Configs.Debug.Win32]
+BfOptimizationLevel = "Og"

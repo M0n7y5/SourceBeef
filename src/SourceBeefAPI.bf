@@ -1,6 +1,9 @@
 namespace SourceBeef
 {
 	using System;
+	using SourceBeef.SDK.Shared.Types;
+	using SourceBeef.SDK.Shared;
+	using SourceBeef.SDK.Shared.Enums;
 	static
 	{
 		static SourceBeefAPI sourceBeefAPI;
@@ -19,7 +22,6 @@ namespace SourceBeef
 		public static VEngineServer *vEngineServer;
 		public static GameEventManager *gameEventManager;
 		static IFaceReturn retCode;
-
 
 		static CreateInterfaceFn gameServerFactory;
 		static CreateInterfaceFn interfaceFactory;

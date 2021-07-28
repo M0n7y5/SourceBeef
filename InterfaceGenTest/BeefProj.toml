@@ -1,0 +1,12 @@
+FileVersion = 1
+Dependencies = {corlib = "*", SourceBeef = "*"}
+
+[Project]
+Name = "InterfaceGenTest"
+StartupObject = "InterfaceGenTest.Program"
+
+[[Configs.Debug.Win32.DistinctOptions]]
+Filter = ""
+BfOptimizationLevel = "Og"
+EmitDebugInfo = "Yes"
+ReflectAlwaysInclude = "IncludeAll"

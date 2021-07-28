@@ -1,4 +1,4 @@
-namespace SamplePlugin
+/*namespace SamplePlugin
 {
 	using SourceBeef;
 	using static SourceBeef.SourceBeefAPI; //You can do this to omit specifying the SourceBeefAPI class when accessing its helper functions. 
@@ -71,4 +71,4 @@ namespace SamplePlugin
 			return &pluginBridge.pluginCallback;
 		} 
 	}
-}
+}*/

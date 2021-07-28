@@ -3,6 +3,9 @@ Dependencies = {corlib = "*", SourceBeef = "*"}
 
 [Project]
 Name = "SamplePlugin"
-TargetType = "BeefDynLib"
 
 [Configs.Debug.Win32]
+BuildKind = "DynamicLib"
+
+[Configs.Release.Win32]
+BuildKind = "DynamicLib"
