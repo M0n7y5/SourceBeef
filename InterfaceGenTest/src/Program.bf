@@ -32,7 +32,7 @@ namespace InterfaceGenTest
 			{
 				var m = dic[i];
 				String ret = scope .();
-				let returnTypeName = m.ReturnType;//.GetName(.. ret);
+				let returnTypeName = m.ReturnType.GetName(.. ret);
 				let funcName = scope $"{m.Name}Func";
 
 				Console.WriteLine(scope $"INDEX: {i}\tReturns {returnTypeName}\t{m.Name}");

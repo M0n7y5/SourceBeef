@@ -1,7 +1,7 @@
 FileVersion = 1
 LastConfig = "Debug"
 LastPlatform = "Win32"
-RecentFilesList = ["src\\SDK\\CSGO\\Interface\\IServerPluginCallbacks.bf", "InterfaceGenTest\\src\\Program.bf", "src\\SDK\\Shared\\Enums\\PluginResult.bf", "src\\CServerPlugin.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\Int.bf", "Disassembly", "Disassembly", "Disassembly", "Disassembly", "Disassembly", "Disassembly", "Disassembly", "Disassembly", "Disassembly", "Disassembly"]
+RecentFilesList = ["InterfaceGenTest\\src\\Program.bf", "src\\SDK\\Shared\\Enums\\PluginResult.bf", "src\\Tier0.bf", "src\\CServerPlugin.bf", "src\\SDK\\CSGO\\Interface\\IServerPluginCallbacks.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\Int.bf", "Disassembly", "Disassembly", "Disassembly", "Disassembly", "Disassembly", "Disassembly", "Disassembly", "Disassembly", "Disassembly", "Disassembly"]
 
 [MainWindow]
 X = 1360
@@ -41,16 +41,18 @@ DefaultDocumentsTabbedView = true
 Type = "TabbedView"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
 TabLabel = "Program.bf"
-TabWidth = 106.0
+TabWidth = 96.0
 Type = "SourceViewPanel"
 FilePath = "InterfaceGenTest\\src\\Program.bf"
-CursorPos = 356
+CursorPos = 779
+VertPos = 480.0
 ProjectName = "InterfaceGenTest"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "PluginResult.bf"
-TabWidth = 125.0
+TabWidth = 115.0
 Type = "SourceViewPanel"
 FilePath = "src\\SDK\\Shared\\Enums\\PluginResult.bf"
 CursorPos = 189
@@ -69,7 +71,7 @@ TabLabel = "CServerPlugin.bf"
 TabWidth = 125.0
 Type = "SourceViewPanel"
 FilePath = "src\\CServerPlugin.bf"
-CursorPos = 259
+CursorPos = 272
 VertPos = 60.0
 ProjectName = "SourceBeef"
 
